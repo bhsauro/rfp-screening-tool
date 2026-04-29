@@ -1,0 +1,100 @@
+REQUEST FOR PROPOSAL
+Enterprise Resource Planning System Implementation
+
+Issuing Organization: Mountain View Regional Hospital System
+RFP Number: MVRHS-IT-2026-089
+Issue Date: April 25, 2026
+Submission Deadline: May 15, 2026 (3:00 PM EST)
+
+1. BACKGROUND
+
+Mountain View Regional Hospital System operates 4 hospitals and 12 outpatient clinics across three states. We are seeking an experienced consulting firm to implement a comprehensive Enterprise Resource Planning (ERP) system to replace our legacy financial, HR, and supply chain management systems.
+
+2. PROJECT SCOPE
+
+The selected vendor will be responsible for:
+
+- Full ERP system selection and implementation
+- Data migration from legacy systems (multiple platforms, some dating to 1990s)
+- Integration with existing Electronic Health Record (EHR) system
+- Custom module development for healthcare-specific workflows
+- Multi-site deployment and coordination
+- Staff training across all facilities
+- Post-implementation support (12 months)
+
+3. TECHNICAL REQUIREMENTS
+
+- Must support multi-entity consolidation
+- HIPAA compliance mandatory
+- Integration with Epic EHR system
+- Support for complex healthcare billing workflows
+- Real-time financial reporting and analytics
+- Mobile accessibility for supply chain management
+
+4. PROJECT TIMELINE
+
+URGENT: The hospital system requires implementation to be completed by December 31, 2026 to comply with new regulatory requirements. This is a firm deadline.
+
+Proposed schedule:
+- Award Date: May 30, 2026
+- Implementation Start: June 5, 2026
+- Go-Live Target: December 15, 2026
+- Total Duration: 6.5 months
+
+5. ELIGIBILITY REQUIREMENTS
+
+Vendors must:
+- Be certified implementation partners for at least one major ERP platform (SAP, Oracle, Workday, or similar)
+- Have completed minimum of 2 healthcare ERP implementations
+- Maintain active HIPAA compliance certification
+- Provide 24/7 support capability
+- Have minimum annual revenue of $50M
+- Carry E&O insurance of at least $5M
+
+Note: Preference will be given to firms with previous multi-state healthcare system experience.
+
+6. BUDGET
+
+Budget range: $1.2M - $2.5M (inclusive of software licensing, implementation, training, and first year support)
+
+Budget constraints are strict. Proposals exceeding $2.5M will not be considered.
+
+7. PROPOSAL REQUIREMENTS
+
+Submit the following by May 15, 2026:
+
+- Executive summary
+- Company qualifications and certifications
+- Proposed ERP platform with justification
+- Detailed implementation methodology
+- Risk mitigation strategies for aggressive timeline
+- Project team composition (must include healthcare ERP specialists)
+- Detailed cost breakdown
+- Minimum of 5 references from healthcare implementations completed in last 3 years
+
+8. EVALUATION
+
+Proposals will be scored as follows:
+- Technical approach and platform selection (25%)
+- Healthcare industry experience (25%)
+- Timeline feasibility and risk mitigation (20%)
+- Team qualifications (15%)
+- Cost (15%)
+
+9. SPECIAL CONSIDERATIONS
+
+- The selected vendor must begin work immediately upon contract execution
+- On-site presence required at main hospital campus during implementation
+- Integration with Epic EHR is critical and non-negotiable
+- Union considerations: Hospital staff are unionized; any changes to workflows must be coordinated with labor representatives
+
+10. QUESTIONS AND CLARIFICATIONS
+
+All questions must be submitted in writing by May 5, 2026 to:
+
+Robert Chen, VP of Information Technology
+rchen@mountainviewhealth.org
+
+A mandatory pre-proposal conference will be held via Zoom on May 1, 2026 at 2:00 PM EST. Attendance is required to be eligible for award.
+
+Note: This RFP may be cancelled or modified at the organization's discretion.

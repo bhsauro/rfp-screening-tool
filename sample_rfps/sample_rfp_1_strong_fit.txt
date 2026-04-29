@@ -1,0 +1,70 @@
+REQUEST FOR PROPOSAL
+Digital Transformation Consulting Services
+
+Issuing Organization: City of Portland Public Works Department
+RFP Number: PW-2026-0142
+Issue Date: April 15, 2026
+Submission Deadline: June 1, 2026 (5:00 PM PST)
+
+1. PROJECT OVERVIEW
+
+The City of Portland Public Works Department is seeking proposals from qualified consulting firms to provide digital transformation consulting services for our infrastructure management systems. The selected vendor will help modernize our asset management, work order systems, and public-facing service portals.
+
+2. SCOPE OF WORK
+
+The consulting firm will be expected to:
+
+- Conduct a comprehensive assessment of current infrastructure management systems
+- Develop a digital transformation roadmap aligned with city priorities
+- Design and implement modern asset management solutions
+- Create citizen-facing digital service portals
+- Provide change management and staff training
+- Ensure compliance with municipal data security requirements
+
+3. PROJECT TIMELINE
+
+- Project Kickoff: July 1, 2026
+- Assessment Phase: 2 months
+- Design Phase: 3 months
+- Implementation: 6 months
+- Total Duration: 12 months
+
+4. ELIGIBILITY REQUIREMENTS
+
+Proposers must:
+- Have a minimum of 5 years of experience in public sector digital transformation
+- Demonstrate experience with at least 3 municipal infrastructure projects
+- Possess current certifications in relevant technologies (cloud platforms, cybersecurity)
+- Provide proof of professional liability insurance ($2M minimum)
+- Be registered to do business in Oregon
+
+5. BUDGET
+
+The estimated budget for this project is $450,000 - $650,000, subject to negotiation based on proposed scope and deliverables.
+
+6. EVALUATION CRITERIA
+
+Proposals will be evaluated on:
+- Relevant experience and qualifications (35%)
+- Technical approach and methodology (30%)
+- Project team expertise (20%)
+- Cost competitiveness (15%)
+
+7. SUBMISSION REQUIREMENTS
+
+Interested firms must submit:
+- Company profile and qualifications
+- Detailed technical proposal
+- Project timeline and work plan
+- Team resumes and organizational chart
+- Cost proposal with itemized breakdown
+- Three references from similar projects
+
+8. CONTACT INFORMATION
+
+Questions regarding this RFP should be directed to:
+Sarah Martinez, Procurement Manager
+Email: sarah.martinez@portlandoregon.gov
+Phone: (503) 555-0123
+
+Proposals must be submitted electronically via the city procurement portal by the deadline listed above. Late submissions will not be accepted.

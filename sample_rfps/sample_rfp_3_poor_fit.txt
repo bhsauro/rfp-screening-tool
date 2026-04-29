@@ -1,0 +1,128 @@
+REQUEST FOR PROPOSAL
+Manufacturing Equipment Installation and Process Engineering Services
+
+Issuing Organization: Apex Automotive Components Inc.
+RFP Number: AAC-MANUF-2026-0447
+Issue Date: April 28, 2026
+Submission Deadline: May 8, 2026 (12:00 PM CST)
+
+1. PROJECT SUMMARY
+
+Apex Automotive Components Inc. is a Tier 1 automotive parts supplier specializing in precision-machined transmission components. We are seeking proposals from qualified engineering firms to design, procure, install, and commission a new CNC machining center production line at our Dearborn, Michigan facility.
+
+2. SCOPE OF WORK
+
+The selected firm will provide:
+
+- Industrial engineering services for production line layout and workflow optimization
+- Specification and procurement of CNC machining equipment (5-axis mills, turning centers, automated material handling)
+- Electrical and mechanical installation oversight
+- PLC programming and SCADA system integration
+- Robotic cell programming and commissioning
+- ISO/TS 16949 compliance documentation
+- Operator training on new equipment
+- Production validation and run-off procedures per automotive industry standards
+
+3. TECHNICAL SPECIFICATIONS
+
+Equipment Requirements:
+- (5) Mazak 5-axis horizontal machining centers
+- (3) Okuma turning centers with sub-spindle and live tooling
+- Automated pallet pool system with 24-pallet capacity
+- Fanuc robotic loading/unloading cells
+- Coolant management and chip removal systems
+- Integration with existing MES (Manufacturing Execution System)
+
+Quality Requirements:
+- SPC (Statistical Process Control) integration
+- CMM (Coordinate Measuring Machine) programming for in-process inspection
+- PPAP (Production Part Approval Process) documentation
+- FMEA (Failure Mode Effects Analysis) for new processes
+
+4. PROJECT TIMELINE
+
+CRITICAL: Production line must be operational by August 15, 2026 to meet OEM contract obligations. Contract includes liquidated damages of $50,000 per week for delays.
+
+- Award: May 12, 2026
+- Equipment procurement: May 15 - June 30, 2026
+- Installation: July 1 - August 1, 2026
+- Commissioning and validation: August 1 - August 15, 2026
+- Total timeline: 10 weeks from award
+
+5. MANDATORY QUALIFICATIONS
+
+Proposers MUST have:
+- Minimum 10 years of automotive manufacturing engineering experience
+- Professional Engineer (PE) license in the state of Michigan
+- IATF 16949 Lead Auditor certification
+- Prior experience with Fanuc CNC controls and robotic systems
+- Demonstrated experience with at least 3 automotive Tier 1 production line installations
+- ISO 9001 and IATF 16949 certified quality management systems
+- Specific experience with transmission component manufacturing
+- On-staff process engineers with Six Sigma Black Belt certification
+- 24/7 on-call support capability during commissioning
+
+Additional Requirements:
+- Must be approved vendor with GM, Ford, or Stellantis
+- Must carry $10M general liability and $5M professional liability insurance
+- OSHA 30-hour certification required for all on-site personnel
+- Must pass facility background checks and NDA requirements
+
+6. BUDGET
+
+Total project budget: $3.8M - $4.2M (inclusive of equipment, installation, commissioning, training)
+
+Payment terms: Net 90 days after milestone completion. No advance payments will be made.
+
+7. PROPOSAL REQUIREMENTS
+
+Submit by May 8, 2026:
+
+- Company profile including automotive industry certifications
+- Detailed equipment specifications and vendor quotes
+- Complete project schedule with critical path analysis
+- Risk assessment and mitigation plan for accelerated timeline
+- QA/QC procedures and documentation
+- Resumes of project team (must include PE-licensed engineers)
+- Safety plan and OSHA compliance documentation
+- Detailed cost proposal with equipment and services breakdown
+- Performance bond guarantee (5% of contract value)
+- Payment terms acceptance
+
+Proposals must be submitted in hard copy (3 bound copies) to:
+
+James Patterson, VP of Manufacturing
+Apex Automotive Components Inc.
+2500 Industrial Drive
+Dearborn, MI 48126
+
+8. EVALUATION CRITERIA
+
+- Automotive industry experience and certifications (30%)
+- Technical approach and equipment selection (25%)
+- Schedule feasibility (20%)
+- Team qualifications (15%)
+- Cost (10%)
+
+9. SPECIAL CONDITIONS
+
+- All work must be performed in accordance with UAW Local 600 collective bargaining agreement
+- Selected vendor must coordinate with existing equipment OEMs for integration
+- Weekend and off-shift work will be required to minimize production disruption
+- Vendor responsible for all permits, inspections, and code compliance
+- This is a fixed-price contract with no provisions for change orders except for client-directed scope changes
+
+10. SITE VISIT
+
+A mandatory site visit is scheduled for May 3, 2026 at 9:00 AM. Failure to attend will result in proposal rejection.
+
+11. QUESTIONS
+
+Direct all questions to:
+James Patterson
+jpatterson@apexauto.com
+(313) 555-0199
+
+No questions will be accepted after May 5, 2026.
+
+NOTE: Apex Automotive reserves the right to reject all proposals or to negotiate with selected finalists. This RFP does not constitute a commitment to award a contract.
