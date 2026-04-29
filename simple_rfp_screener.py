@@ -83,14 +83,11 @@ def validate_score(score, category):
 
 
 def calculate_score(llm_result):
-    """Apply rules-based scoring using weights."""
+    """Apply rules-based scoring using weights.
 
-    # Eligibility gate
-    if llm_result["eligibility"] == "fail":
-        return None
-    if llm_result["eligibility"] == "unclear":
-        return None
-
+    Note: Always calculates score for demo purposes, even if eligibility fails.
+    Recommendation logic will still account for eligibility status.
+    """
     # Calculate weighted score with validation
     total = 0
     for category, weight in WEIGHTS.items():
@@ -102,16 +99,18 @@ def calculate_score(llm_result):
 
 
 def get_recommendation(weighted_score, eligibility):
-    """Determine recommendation based on score and eligibility."""
+    """Determine recommendation based on score and eligibility.
 
+    Note: Eligibility fail/unclear will override score-based recommendation.
+    This ensures compliance requirements are prioritized over scoring.
+    """
+    # Eligibility gates override score
     if eligibility == "fail":
-        return "Do not pursue"
+        return "Do not pursue (eligibility)"
     if eligibility == "unclear":
-        return "Review"
+        return "Review (eligibility unclear)"
 
-    if weighted_score is None:
-        return "Review"
-
+    # Score-based recommendations
     if weighted_score >= 4.0:
         return "Strong pursue"
     elif weighted_score >= 3.0:
