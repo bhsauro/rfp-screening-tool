@@ -1,128 +1,196 @@
 REQUEST FOR PROPOSAL
-Manufacturing Equipment Installation and Process Engineering Services
+Highway Infrastructure Design and Construction Management Services
 
-Issuing Organization: Apex Automotive Components Inc.
-RFP Number: AAC-MANUF-2026-0447
-Issue Date: April 28, 2026
-Submission Deadline: May 8, 2026 (12:00 PM CST)
+Issuing Organization: California Department of Transportation (Caltrans)
+RFP Number: CALTRANS-CE-2026-1842
+Issue Date: April 22, 2026
+Submission Deadline: May 10, 2026 (4:00 PM PST)
 
 1. PROJECT SUMMARY
 
-Apex Automotive Components Inc. is a Tier 1 automotive parts supplier specializing in precision-machined transmission components. We are seeking proposals from qualified engineering firms to design, procure, install, and commission a new CNC machining center production line at our Dearborn, Michigan facility.
+The California Department of Transportation is seeking proposals from qualified civil engineering and construction management firms to provide design and construction oversight services for the Interstate 5 Corridor Widening Project in Los Angeles County.
 
-2. SCOPE OF WORK
+2. PROJECT OVERVIEW
 
-The selected firm will provide:
+Scope: Design and construction management for 8.5 miles of highway expansion, including:
 
-- Industrial engineering services for production line layout and workflow optimization
-- Specification and procurement of CNC machining equipment (5-axis mills, turning centers, automated material handling)
-- Electrical and mechanical installation oversight
-- PLC programming and SCADA system integration
-- Robotic cell programming and commissioning
-- ISO/TS 16949 compliance documentation
-- Operator training on new equipment
-- Production validation and run-off procedures per automotive industry standards
+- Widening I-5 from 4 lanes to 6 lanes in each direction
+- Design of 3 new freeway interchanges
+- Replacement of 2 aging overpasses
+- Stormwater drainage system upgrades
+- Sound wall installation (4.2 miles)
+- Intelligent Transportation System (ITS) infrastructure integration
+- Environmental mitigation and habitat restoration
+- Traffic management during construction phases
 
-3. TECHNICAL SPECIFICATIONS
+Total Project Value: $485 million (design and construction combined)
 
-Equipment Requirements:
-- (5) Mazak 5-axis horizontal machining centers
-- (3) Okuma turning centers with sub-spindle and live tooling
-- Automated pallet pool system with 24-pallet capacity
-- Fanuc robotic loading/unloading cells
-- Coolant management and chip removal systems
-- Integration with existing MES (Manufacturing Execution System)
+3. SCOPE OF WORK FOR SELECTED FIRM
 
-Quality Requirements:
-- SPC (Statistical Process Control) integration
-- CMM (Coordinate Measuring Machine) programming for in-process inspection
-- PPAP (Production Part Approval Process) documentation
-- FMEA (Failure Mode Effects Analysis) for new processes
+The consulting firm will provide:
+
+- Complete highway geometric design and engineering plans
+- Structural engineering for bridges and overpasses
+- Geotechnical investigation and foundation design
+- Hydraulic and drainage system engineering
+- Environmental compliance and permitting support
+- Construction cost estimating and value engineering
+- Full-time construction management and inspection services
+- Quality assurance/quality control oversight
+- Coordination with local jurisdictions and utilities
+- Public outreach and stakeholder engagement
 
 4. PROJECT TIMELINE
 
-CRITICAL: Production line must be operational by August 15, 2026 to meet OEM contract obligations. Contract includes liquidated damages of $50,000 per week for delays.
-
-- Award: May 12, 2026
-- Equipment procurement: May 15 - June 30, 2026
-- Installation: July 1 - August 1, 2026
-- Commissioning and validation: August 1 - August 15, 2026
-- Total timeline: 10 weeks from award
+Phase 1 - Design: 18 months (June 2026 - December 2027)
+Phase 2 - Construction Management: 36 months (January 2028 - December 2030)
+Total Duration: 54 months
 
 5. MANDATORY QUALIFICATIONS
 
-Proposers MUST have:
-- Minimum 10 years of automotive manufacturing engineering experience
-- Professional Engineer (PE) license in the state of Michigan
-- IATF 16949 Lead Auditor certification
-- Prior experience with Fanuc CNC controls and robotic systems
-- Demonstrated experience with at least 3 automotive Tier 1 production line installations
-- ISO 9001 and IATF 16949 certified quality management systems
-- Specific experience with transmission component manufacturing
-- On-staff process engineers with Six Sigma Black Belt certification
-- 24/7 on-call support capability during commissioning
+Prime consultant must have:
 
-Additional Requirements:
-- Must be approved vendor with GM, Ford, or Stellantis
-- Must carry $10M general liability and $5M professional liability insurance
-- OSHA 30-hour certification required for all on-site personnel
-- Must pass facility background checks and NDA requirements
+- Licensed Professional Civil Engineer (PE) in California with highway design experience
+- Minimum 15 years experience in major highway/freeway design projects
+- Experience as prime consultant on minimum 3 projects >$100M construction value
+- Demonstrated expertise in Caltrans design standards and procedures
+- In-house structural engineering capabilities (bridge design)
+- CADD capabilities using Caltrans-approved software (MicroStation, Geopak)
+- Experience with NEPA/CEQA environmental compliance
+- Active registration with California contractors licensing board
+- Professional liability insurance: $25M minimum
+- Ability to provide full-time on-site presence during construction (4+ years)
 
-6. BUDGET
+Specific technical requirements:
+- Seismic design expertise per Caltrans Seismic Design Criteria
+- Bridge inspection certification (Caltrans or FHWA)
+- Traffic engineering and work zone safety planning
+- Caltrans Local Assistance Procedures Manual (LAPM) compliance
+- Experience with Design-Bid-Build delivery method
 
-Total project budget: $3.8M - $4.2M (inclusive of equipment, installation, commissioning, training)
+6. TEAM REQUIREMENTS
 
-Payment terms: Net 90 days after milestone completion. No advance payments will be made.
+Project team must include:
 
-7. PROPOSAL REQUIREMENTS
+- Project Manager: PE with 20+ years highway design experience
+- Lead Highway Design Engineer: PE with Caltrans project history
+- Structural Engineer: SE license, bridge design specialist
+- Geotechnical Engineer: PE with California seismic experience
+- Environmental Compliance Manager: NEPA/CEQA expertise
+- Construction Manager: 15+ years highway construction oversight
+- Traffic Engineer: PE with work zone traffic control planning experience
+- Minimum 8 full-time staff dedicated to construction phase
 
-Submit by May 8, 2026:
+7. BUDGET
 
-- Company profile including automotive industry certifications
-- Detailed equipment specifications and vendor quotes
-- Complete project schedule with critical path analysis
-- Risk assessment and mitigation plan for accelerated timeline
-- QA/QC procedures and documentation
-- Resumes of project team (must include PE-licensed engineers)
-- Safety plan and OSHA compliance documentation
-- Detailed cost proposal with equipment and services breakdown
-- Performance bond guarantee (5% of contract value)
-- Payment terms acceptance
+Professional Services Fee: $38 million - $45 million
+(Approximately 8-9% of total construction cost)
 
-Proposals must be submitted in hard copy (3 bound copies) to:
-
-James Patterson, VP of Manufacturing
-Apex Automotive Components Inc.
-2500 Industrial Drive
-Dearborn, MI 48126
+Payment Structure:
+- Design Phase: Monthly progress payments
+- Construction Phase: Cost-plus-fixed-fee or lump sum (proposer's choice)
+- Reimbursable expenses: Travel, testing, subconsultants
 
 8. EVALUATION CRITERIA
 
-- Automotive industry experience and certifications (30%)
-- Technical approach and equipment selection (25%)
-- Schedule feasibility (20%)
-- Team qualifications (15%)
-- Cost (10%)
+Technical Qualifications (40%)
+- Highway design experience and Caltrans project history
+- Structural engineering capabilities
+- Environmental compliance track record
+- Construction management experience on active highways
 
-9. SPECIAL CONDITIONS
+Project Understanding and Approach (30%)
+- Design methodology and innovation
+- Construction phasing and traffic management strategy
+- Risk identification and mitigation
+- Schedule feasibility
 
-- All work must be performed in accordance with UAW Local 600 collective bargaining agreement
-- Selected vendor must coordinate with existing equipment OEMs for integration
-- Weekend and off-shift work will be required to minimize production disruption
-- Vendor responsible for all permits, inspections, and code compliance
-- This is a fixed-price contract with no provisions for change orders except for client-directed scope changes
+Team Qualifications (20%)
+- Key personnel experience and availability
+- Organizational structure and staffing plan
+- DBE (Disadvantaged Business Enterprise) participation plan
 
-10. SITE VISIT
+Cost (10%)
+- Fee competitiveness and cost control approach
 
-A mandatory site visit is scheduled for May 3, 2026 at 9:00 AM. Failure to attend will result in proposal rejection.
+9. SPECIAL REQUIREMENTS
 
-11. QUESTIONS
+Geographic and Logistical:
+- Project office must be within 50 miles of project site (Los Angeles County)
+- Staff must be available for in-person meetings in Sacramento and Los Angeles
+- Construction oversight requires 24/7 availability during critical phases
 
-Direct all questions to:
-James Patterson
-jpatterson@apexauto.com
-(313) 555-0199
+Regulatory and Compliance:
+- All work must comply with Caltrans Highway Design Manual
+- Federal Highway Administration (FHWA) oversight and approval required
+- Davis-Bacon prevailing wage requirements apply
+- Buy America provisions for materials
+- Extensive public involvement and community engagement required
 
-No questions will be accepted after May 5, 2026.
+Certifications and Experience:
+- Familiarity with California Public Contract Code
+- Experience with Caltrans District 7 (Los Angeles) procedures
+- Prior work on active urban freeways with traffic volumes >200,000 vehicles/day
+- Demonstrated ability to maintain highway operations during construction
 
-NOTE: Apex Automotive reserves the right to reject all proposals or to negotiate with selected finalists. This RFP does not constitute a commitment to award a contract.
+10. SUBMISSION REQUIREMENTS
+
+Submit by May 10, 2026 (hard copy and electronic):
+
+- Statement of Qualifications (SOQ)
+  - Firm history and organizational chart
+  - Caltrans project experience (minimum 5 comparable projects)
+  - Key personnel resumes and PE license numbers
+  - DBE participation plan (minimum 18% goal)
+
+- Technical Proposal
+  - Project understanding and approach
+  - Design methodology and quality control procedures
+  - Construction management and inspection plan
+  - Traffic management and public outreach strategy
+  - Risk assessment and mitigation strategies
+  - Project schedule with critical milestones
+
+- Cost Proposal (submitted separately in sealed envelope)
+  - Fee structure and billing rates
+  - Staffing plan and hours estimate
+  - Reimbursable expenses estimate
+
+- Required Certifications
+  - Professional liability insurance certificate
+  - PE licenses for all key engineering staff
+  - Caltrans prequalification documentation
+  - Conflict of interest statement
+
+11. MANDATORY SITE VISIT
+
+Date: May 2, 2026 at 10:00 AM
+Meeting Location: Caltrans District 7 Office, Los Angeles
+Site Tour: I-5 corridor (Los Angeles County)
+
+Attendance is MANDATORY. Failure to attend will result in proposal disqualification.
+
+12. QUESTIONS AND CONTACT
+
+All questions must be submitted in writing by May 5, 2026 to:
+
+Maria Rodriguez, PE
+Chief of Design
+Caltrans District 7
+Email: maria.rodriguez@dot.ca.gov
+Phone: (213) 555-0287
+
+Responses to questions will be posted on the Caltrans procurement website by May 7, 2026.
+
+13. SUBMISSION ADDRESS
+
+Submit 5 hard copies and 1 electronic copy (USB drive) to:
+
+Caltrans District 7 - Procurement Office
+100 South Main Street, MS 8
+Los Angeles, CA 90012
+ATTN: I-5 Corridor Widening RFP
+
+Late submissions will not be accepted under any circumstances.
+
+NOTE: This project is subject to federal and state funding availability. Caltrans reserves the right to cancel or modify this solicitation at any time. Selected firm may be required to enter into a Master Agreement with Caltrans prior to project-specific authorization.

@@ -1,100 +1,134 @@
 REQUEST FOR PROPOSAL
-Enterprise Resource Planning System Implementation
+Federal Data Integration and Analytics Platform
 
-Issuing Organization: Mountain View Regional Hospital System
-RFP Number: MVRHS-IT-2026-089
-Issue Date: April 25, 2026
-Submission Deadline: May 15, 2026 (3:00 PM EST)
+Issuing Organization: U.S. Department of Transportation - Federal Transit Administration
+RFP Number: FTA-2026-IT-0847
+Issue Date: April 20, 2026
+Submission Deadline: May 25, 2026 (2:00 PM EST)
 
 1. BACKGROUND
 
-Mountain View Regional Hospital System operates 4 hospitals and 12 outpatient clinics across three states. We are seeking an experienced consulting firm to implement a comprehensive Enterprise Resource Planning (ERP) system to replace our legacy financial, HR, and supply chain management systems.
+The Federal Transit Administration (FTA) manages grant programs and oversight for public transportation across the United States. We are seeking a qualified consulting firm to modernize our data integration infrastructure and build a comprehensive analytics platform to consolidate reporting from over 1,500 transit agencies nationwide.
 
-2. PROJECT SCOPE
+2. PROJECT OVERVIEW
 
-The selected vendor will be responsible for:
+The selected vendor will design and implement a cloud-based data integration platform that:
 
-- Full ERP system selection and implementation
-- Data migration from legacy systems (multiple platforms, some dating to 1990s)
-- Integration with existing Electronic Health Record (EHR) system
-- Custom module development for healthcare-specific workflows
-- Multi-site deployment and coordination
-- Staff training across all facilities
-- Post-implementation support (12 months)
+- Consolidates data from 1,500+ transit agencies using varied reporting formats
+- Integrates with existing federal grant management systems
+- Develops real-time dashboards and analytics for program oversight
+- Ensures FedRAMP compliance and data security requirements
+- Provides automated data validation and quality control workflows
+- Creates public-facing transparency portal for grant allocations and performance metrics
 
-3. TECHNICAL REQUIREMENTS
+3. SCOPE OF WORK
 
-- Must support multi-entity consolidation
-- HIPAA compliance mandatory
-- Integration with Epic EHR system
-- Support for complex healthcare billing workflows
-- Real-time financial reporting and analytics
-- Mobile accessibility for supply chain management
+Phase 1 (Months 1-4): Discovery and Architecture
+- Stakeholder engagement across regional offices
+- Data mapping and integration architecture design
+- Security and compliance framework development
 
-4. PROJECT TIMELINE
+Phase 2 (Months 5-9): Platform Development
+- Cloud infrastructure setup (AWS GovCloud required)
+- ETL pipeline development
+- Dashboard and reporting tool implementation
+- API development for agency data submissions
 
-URGENT: The hospital system requires implementation to be completed by December 31, 2026 to comply with new regulatory requirements. This is a firm deadline.
+Phase 3 (Months 10-12): Testing and Deployment
+- User acceptance testing across all FTA offices
+- Staff training and change management
+- Phased rollout to transit agencies
+- Documentation and knowledge transfer
 
-Proposed schedule:
-- Award Date: May 30, 2026
-- Implementation Start: June 5, 2026
-- Go-Live Target: December 15, 2026
-- Total Duration: 6.5 months
+Total Duration: 12 months
+
+4. TECHNICAL REQUIREMENTS
+
+Required capabilities:
+- AWS GovCloud expertise and implementation experience
+- Experience with large-scale ETL and data integration (100M+ records)
+- Business intelligence and visualization platforms (Tableau, Power BI, or similar)
+- API development and documentation
+- FedRAMP compliance experience (preferred but not required)
+- Understanding of federal grant management processes
 
 5. ELIGIBILITY REQUIREMENTS
 
-Vendors must:
-- Be certified implementation partners for at least one major ERP platform (SAP, Oracle, Workday, or similar)
-- Have completed minimum of 2 healthcare ERP implementations
-- Maintain active HIPAA compliance certification
-- Provide 24/7 support capability
-- Have minimum annual revenue of $50M
-- Carry E&O insurance of at least $5M
+Proposers must:
+- Minimum 5 years experience with federal or state government clients
+- Experience with data integration projects serving 500+ data sources
+- AWS certification (Solutions Architect or equivalent)
+- Ability to pass background checks for team members requiring facility access
+- Professional liability insurance ($3M minimum)
+- U.S.-based company with physical presence on East Coast
 
-Note: Preference will be given to firms with previous multi-state healthcare system experience.
+Note: Active FedRAMP authorization is highly preferred but not mandatory. Firms without FedRAMP experience must demonstrate clear path to compliance.
 
-6. BUDGET
+6. PROJECT TIMELINE
 
-Budget range: $1.2M - $2.5M (inclusive of software licensing, implementation, training, and first year support)
+AGGRESSIVE TIMELINE: Due to Congressional reporting requirements, the platform must be operational by April 2027. This timeline is firm and non-negotiable.
 
-Budget constraints are strict. Proposals exceeding $2.5M will not be considered.
+Proposal deadline: May 25, 2026 (3 weeks to prepare)
+Award date: June 15, 2026
+Project start: July 1, 2026
+Go-live: April 1, 2027
 
-7. PROPOSAL REQUIREMENTS
+7. BUDGET
 
-Submit the following by May 15, 2026:
+Estimated budget: $800,000 - $1,200,000
 
-- Executive summary
-- Company qualifications and certifications
-- Proposed ERP platform with justification
-- Detailed implementation methodology
-- Risk mitigation strategies for aggressive timeline
-- Project team composition (must include healthcare ERP specialists)
-- Detailed cost breakdown
-- Minimum of 5 references from healthcare implementations completed in last 3 years
+Budget includes all consulting services, cloud infrastructure costs, software licensing, training, and 6 months post-deployment support.
 
-8. EVALUATION
+8. EVALUATION CRITERIA
 
-Proposals will be scored as follows:
-- Technical approach and platform selection (25%)
-- Healthcare industry experience (25%)
-- Timeline feasibility and risk mitigation (20%)
-- Team qualifications (15%)
-- Cost (15%)
+Proposals will be evaluated on:
+- Federal government experience and understanding of compliance requirements (30%)
+- Technical approach and architecture (25%)
+- Data integration and analytics expertise (20%)
+- Team qualifications and experience (15%)
+- Cost and value (10%)
 
 9. SPECIAL CONSIDERATIONS
 
-- The selected vendor must begin work immediately upon contract execution
-- On-site presence required at main hospital campus during implementation
-- Integration with Epic EHR is critical and non-negotiable
-- Union considerations: Hospital staff are unionized; any changes to workflows must be coordinated with labor representatives
+Challenges and constraints:
+- Short proposal preparation window (3 weeks)
+- Aggressive 9-month implementation timeline
+- Complex stakeholder landscape (50 state DOTs, 10 regional offices, 1,500 agencies)
+- FedRAMP compliance pathway required (can be developed during project if not currently certified)
+- May require periodic travel to Washington, DC and regional offices
+- Background checks required for staff accessing federal systems (4-6 week process)
 
-10. QUESTIONS AND CLARIFICATIONS
+Strengths of opportunity:
+- Aligns with workflow automation and data integration expertise
+- Federal client in target public sector vertical
+- East Coast location (DC area)
+- Clear scope and deliverables
+- Potential for follow-on work (Phase 2: ML/AI analytics enhancements)
 
-All questions must be submitted in writing by May 5, 2026 to:
+10. SUBMISSION REQUIREMENTS
 
-Robert Chen, VP of Information Technology
-rchen@mountainviewhealth.org
+Required materials:
+- Executive summary and understanding of FTA mission
+- Company qualifications and federal project experience
+- Technical approach and architecture proposal
+- Data security and compliance strategy
+- Project timeline with milestones
+- Team composition and resumes (clearance status if applicable)
+- Risk assessment and mitigation strategies
+- Detailed cost proposal with assumptions
+- Minimum 4 references from federal or state government clients
 
-A mandatory pre-proposal conference will be held via Zoom on May 1, 2026 at 2:00 PM EST. Attendance is required to be eligible for award.
+11. QUESTIONS AND CONTACT
 
-Note: This RFP may be cancelled or modified at the organization's discretion.
+Questions must be submitted by May 10, 2026 to:
+
+James Wilson, Contracting Officer
+Federal Transit Administration
+Email: james.wilson@dot.gov
+Phone: (202) 555-0198
+
+Responses will be posted publicly by May 15, 2026.
+
+Optional pre-proposal webinar: May 5, 2026 at 1:00 PM EST (not mandatory, recording will be available)
+
+Note: This procurement is subject to federal acquisition regulations. DBE (Disadvantaged Business Enterprise) participation is encouraged.
