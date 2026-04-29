@@ -1,14 +1,14 @@
 REQUEST FOR PROPOSAL
 Digital Transformation Consulting Services
 
-Issuing Organization: City of Portland Public Works Department
+Issuing Organization: City of Philadelphia Public Works Department
 RFP Number: PW-2026-0142
 Issue Date: April 15, 2026
-Submission Deadline: June 1, 2026 (5:00 PM PST)
+Submission Deadline: June 1, 2026 (5:00 PM EST)
 
 1. PROJECT OVERVIEW
 
-The City of Portland Public Works Department is seeking proposals from qualified consulting firms to provide digital transformation consulting services for our infrastructure management systems. The selected vendor will help modernize our asset management, work order systems, and public-facing service portals.
+The City of Philadelphia Public Works Department is seeking proposals from qualified consulting firms to provide digital transformation consulting services for our infrastructure management systems. The selected vendor will help modernize our asset management, work order systems, and public-facing service portals.
 
 2. SCOPE OF WORK
 
@@ -36,7 +36,7 @@ Proposers must:
 - Demonstrate experience with at least 3 municipal infrastructure projects
 - Possess current certifications in relevant technologies (cloud platforms, cybersecurity)
 - Provide proof of professional liability insurance ($2M minimum)
-- Be registered to do business in Oregon
+- Be registered to do business in Pennsylvania
 
 5. BUDGET
 
@@ -64,7 +64,7 @@ Interested firms must submit:
 
 Questions regarding this RFP should be directed to:
 Sarah Martinez, Procurement Manager
-Email: sarah.martinez@portlandoregon.gov
-Phone: (503) 555-0123
+Email: sarah.martinez@phila.gov
+Phone: (215) 555-0123
 
 Proposals must be submitted electronically via the city procurement portal by the deadline listed above. Late submissions will not be accepted.

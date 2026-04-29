@@ -1,8 +1,8 @@
 {
   "rfp_title": "Digital Transformation Consulting Services",
-  "issuing_organization": "City of Portland Public Works Department",
+  "issuing_organization": "City of Philadelphia Public Works Department",
   "eligibility": "pass",
-  "eligibility_reasoning": "All requirements met: 5+ years experience, municipal projects, certifications, insurance, Oregon registration",
+  "eligibility_reasoning": "All requirements met: 5+ years experience, municipal projects, certifications, insurance, Pennsylvania registration",
   "scores": {
     "service_fit": {
       "score": 5,
@@ -11,9 +11,9 @@
       "confidence": "high"
     },
     "strategic_fit": {
-      "score": 4,
-      "evidence": "Public sector client in target geography (West Coast), infrastructure focus aligns with strategy",
-      "reasoning": "Strong strategic fit - municipal infrastructure is a key vertical",
+      "score": 5,
+      "evidence": "Public sector client in primary target geography (East Coast - PA), infrastructure focus aligns with strategy",
+      "reasoning": "Excellent strategic fit - municipal infrastructure in core East Coast market",
       "confidence": "high"
     },
     "win_likelihood": {

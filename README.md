@@ -66,8 +66,12 @@ Score < 3.0 → "Do not pursue"
 
 ## Files
 
-- `simple_rfp_screener.py` - Main script (~150 lines)
-- `sample_rfps/` - Test RFPs
+- `simple_rfp_screener.py` - Main script
+- `prompt.txt` - Claude prompt template with scoring guidelines
+- `company_context.txt` - Company capabilities and target markets
+- `mock_response.json` - Mock response for demo when API unavailable
+- `sample_rfps/` - 3 test RFPs (strong fit, moderate fit, poor fit)
+- `requirements.txt` - Python dependencies
 - `.env` - API key (create this)
 
 That's it!
