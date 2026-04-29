@@ -6,7 +6,7 @@ Demonstrates: LLM extraction → Rules-based scoring → Recommendation
 
 import json
 import sys
-import os
+from pathlib import Path
 from dotenv import load_dotenv
 import anthropic
 
@@ -23,146 +23,41 @@ WEIGHTS = {
     "proposal_effort": 0.10,
 }
 
-# Mock response for demo/testing when API unavailable
-MOCK_RESPONSE = {
-    "rfp_title": "Digital Transformation Consulting Services",
-    "issuing_organization": "City of Portland Public Works Department",
-    "eligibility": "pass",
-    "eligibility_reasoning": "All requirements met: 5+ years experience, municipal projects, certifications, insurance, Oregon registration",
-    "scores": {
-        "service_fit": {
-            "score": 5,
-            "evidence": "RFP requests digital transformation, asset management, and portal development - all core services",
-            "reasoning": "Perfect alignment with our digital transformation consulting expertise",
-            "confidence": "high"
-        },
-        "strategic_fit": {
-            "score": 4,
-            "evidence": "Public sector client in target geography (West Coast), infrastructure focus aligns with strategy",
-            "reasoning": "Strong strategic fit - municipal infrastructure is a key vertical",
-            "confidence": "high"
-        },
-        "win_likelihood": {
-            "score": 4,
-            "evidence": "We have 3 similar municipal projects completed, strong references available",
-            "reasoning": "Good competitive position with relevant experience",
-            "confidence": "medium"
-        },
-        "deadline_feasibility": {
-            "score": 4,
-            "evidence": "6 weeks until deadline, standard proposal requirements",
-            "reasoning": "Sufficient time to prepare quality proposal",
-            "confidence": "high"
-        },
-        "proposal_effort": {
-            "score": 3,
-            "evidence": "Standard RFP format, no unusual requirements, can leverage past proposals",
-            "reasoning": "Moderate effort - some customization needed but manageable",
-            "confidence": "medium"
-        },
-        "revenue_value": {
-            "score": 4,
-            "evidence": "$450K-$650K budget range",
-            "reasoning": "Solid revenue opportunity in target range",
-            "confidence": "high"
-        }
-    },
-    "extracted_signals": {
-        "deadline": "June 1, 2026",
-        "budget": "$450,000 - $650,000",
-        "required_services": ["Digital transformation assessment", "Asset management systems", "Citizen portals", "Change management", "Training"]
-    }
-}
 
-# Prompt for Claude
-PROMPT = """Analyze this RFP and return ONLY valid JSON (no markdown, no code blocks).
+def load_prompt():
+    """Load prompt from external file."""
+    prompt_path = Path(__file__).parent / "prompt.txt"
+    with open(prompt_path, 'r') as f:
+        return f.read()
 
-Score each category 1-5 where:
-- 1 = very poor, 5 = excellent
-- For "proposal_effort": 5 = low effort, 1 = high effort (inverse)
 
-For each score, provide:
-- evidence: Specific facts from the RFP that support this score
-- reasoning: Why those facts lead to this score
-- confidence: low | medium | high (how certain are you of this assessment)
+def load_company_context():
+    """Load company context from external file."""
+    context_path = Path(__file__).parent / "company_context.txt"
+    with open(context_path, 'r') as f:
+        return f.read()
 
-Evaluation guidance:
 
-Use the following criteria when scoring:
-
-- service_fit: How well the RFP requirements match typical workflow automation, data integration, and proposal support capabilities
-- strategic_fit: Alignment with target sectors, clients, or types of work (e.g., operational efficiency, process improvement)
-- win_likelihood: Evidence of relevant experience, clear differentiation, or existing relationships
-- deadline_feasibility: Whether the timeline allows for a strong proposal given typical effort required
-- proposal_effort: Estimated level of effort required to complete the proposal (5 = minimal effort, 1 = very high effort)
-- revenue_value: Whether the opportunity appears financially meaningful based on scope or implied budget
-
-If information is missing or unclear, make a reasonable estimate and lower confidence.
-
-Return this exact structure:
-{
-  "rfp_title": "...",
-  "issuing_organization": "...",
-  "eligibility": "pass | fail | unclear",
-  "eligibility_reasoning": "...",
-  "scores": {
-    "service_fit": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    },
-    "strategic_fit": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    },
-    "win_likelihood": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    },
-    "deadline_feasibility": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    },
-    "proposal_effort": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    },
-    "revenue_value": {
-      "score": 1-5,
-      "evidence": "...",
-      "reasoning": "...",
-      "confidence": "low | medium | high"
-    }
-  },
-  "extracted_signals": {
-    "deadline": "...",
-    "budget": "...",
-    "required_services": []
-  }
-}
-
-RFP to analyze:
-"""
+def load_mock_response():
+    """Load mock response from external file."""
+    mock_path = Path(__file__).parent / "mock_response.json"
+    with open(mock_path, 'r') as f:
+        return json.load(f)
 
 
 def parse_rfp(rfp_text):
     """Use Claude to parse RFP and extract structured data."""
     client = anthropic.Anthropic()
+    company_context = load_company_context()
+    prompt = load_prompt()
+
+    # Combine context + prompt + RFP
+    full_prompt = f"{company_context}\n\n{prompt}{rfp_text}"
 
     response = client.messages.create(
-        model="claude-3-5-sonnet-20241022",  # Update this to working model
+        model="claude-opus-4-7",  # Update this to working model
         max_tokens=3000,
-        temperature=0,
-        messages=[{"role": "user", "content": PROMPT + rfp_text}]
+        messages=[{"role": "user", "content": full_prompt}]
     )
 
     # Clean response and parse JSON (improved cleanup)
@@ -241,7 +136,7 @@ def main():
         llm_result = parse_rfp(rfp_text)
     except Exception as e:
         print(f"⚠️  Claude API unavailable, using mock response for demo: {e}\n")
-        llm_result = MOCK_RESPONSE
+        llm_result = load_mock_response()
 
     # Step 2: Apply rules-based scoring
     weighted_score = calculate_score(llm_result)

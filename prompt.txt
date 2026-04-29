@@ -1,0 +1,76 @@
+Analyze this RFP and return ONLY valid JSON (no markdown, no code blocks).
+
+Score each category 1-5 where:
+- 1 = very poor, 5 = excellent
+- For "proposal_effort": 5 = low effort, 1 = high effort (inverse)
+
+For each score, provide:
+- evidence: Specific facts from the RFP that support this score
+- reasoning: Why those facts lead to this score
+- confidence: low | medium | high (how certain are you of this assessment)
+
+Evaluation guidance:
+
+Use the following criteria when scoring:
+
+- service_fit: How well the RFP requirements match typical workflow automation, data integration, and proposal support capabilities
+- strategic_fit: Alignment with target sectors, clients, or types of work (e.g., operational efficiency, process improvement)
+- win_likelihood: Evidence of relevant experience, clear differentiation, or existing relationships
+- deadline_feasibility: Whether the timeline allows for a strong proposal given typical effort required
+- proposal_effort: Estimated level of effort required to complete the proposal (5 = minimal effort, 1 = very high effort)
+- revenue_value: Whether the opportunity appears financially meaningful based on scope or implied budget
+
+If information is missing or unclear, make a reasonable estimate and lower confidence.
+
+Return this exact structure:
+{
+  "rfp_title": "...",
+  "issuing_organization": "...",
+  "eligibility": "pass | fail | unclear",
+  "eligibility_reasoning": "...",
+  "scores": {
+    "service_fit": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    },
+    "strategic_fit": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    },
+    "win_likelihood": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    },
+    "deadline_feasibility": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    },
+    "proposal_effort": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    },
+    "revenue_value": {
+      "score": 1-5,
+      "evidence": "...",
+      "reasoning": "...",
+      "confidence": "low | medium | high"
+    }
+  },
+  "extracted_signals": {
+    "deadline": "...",
+    "budget": "...",
+    "required_services": []
+  }
+}
+
+RFP to analyze:

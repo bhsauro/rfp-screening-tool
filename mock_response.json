@@ -1,0 +1,55 @@
+{
+  "rfp_title": "Digital Transformation Consulting Services",
+  "issuing_organization": "City of Portland Public Works Department",
+  "eligibility": "pass",
+  "eligibility_reasoning": "All requirements met: 5+ years experience, municipal projects, certifications, insurance, Oregon registration",
+  "scores": {
+    "service_fit": {
+      "score": 5,
+      "evidence": "RFP requests digital transformation, asset management, and portal development - all core services",
+      "reasoning": "Perfect alignment with our digital transformation consulting expertise",
+      "confidence": "high"
+    },
+    "strategic_fit": {
+      "score": 4,
+      "evidence": "Public sector client in target geography (West Coast), infrastructure focus aligns with strategy",
+      "reasoning": "Strong strategic fit - municipal infrastructure is a key vertical",
+      "confidence": "high"
+    },
+    "win_likelihood": {
+      "score": 4,
+      "evidence": "We have 3 similar municipal projects completed, strong references available",
+      "reasoning": "Good competitive position with relevant experience",
+      "confidence": "medium"
+    },
+    "deadline_feasibility": {
+      "score": 4,
+      "evidence": "6 weeks until deadline, standard proposal requirements",
+      "reasoning": "Sufficient time to prepare quality proposal",
+      "confidence": "high"
+    },
+    "proposal_effort": {
+      "score": 3,
+      "evidence": "Standard RFP format, no unusual requirements, can leverage past proposals",
+      "reasoning": "Moderate effort - some customization needed but manageable",
+      "confidence": "medium"
+    },
+    "revenue_value": {
+      "score": 4,
+      "evidence": "$450K-$650K budget range",
+      "reasoning": "Solid revenue opportunity in target range",
+      "confidence": "high"
+    }
+  },
+  "extracted_signals": {
+    "deadline": "June 1, 2026",
+    "budget": "$450,000 - $650,000",
+    "required_services": [
+      "Digital transformation assessment",
+      "Asset management systems",
+      "Citizen portals",
+      "Change management",
+      "Training"
+    ]
+  }
+}
