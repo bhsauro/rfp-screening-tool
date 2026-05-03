@@ -73,5 +73,3 @@ Score < 3.0 → "Do not pursue"
 - `sample_rfps/` - 3 test RFPs (strong fit, moderate fit, poor fit)
 - `requirements.txt` - Python dependencies
 - `.env` - API key (create this)
-
-That's it!
